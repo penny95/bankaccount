@@ -17,7 +17,8 @@ class BankAccount {
       else if(this.status[i]==="closed"){
         return "Account is closed";
       }
-    }}
+    }
+  }
 
   open() {
     this.status = "open";
